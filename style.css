@@ -171,6 +171,10 @@ img {
   background-color: white;
   color: black;
 }
+.btn-dark {
+  background-color: black;
+  color: white;
+}
 /* page */
 .banner {
   background-color: black;
@@ -218,9 +222,25 @@ img {
 }
 .icon-link {
   border-radius: 40px;
+  transition: 0.1s;
 }
 .icon-link:hover {
   box-shadow: 0px 0px 16px 3px #9094ffe5;
+}
+.project {
+  padding: 160px 0;
+}
+.projet-h2 {
+  width: 746px;
+  margin-left: auto;
+}
+.left {
+  width: 416px;
+}
+.footer {
+  padding: 40px 0;
+  background-color: black;
+  color: white;
 }
 /* common */
 .container {
@@ -229,6 +249,9 @@ img {
 }
 .d-flex {
   display: flex;
+}
+.flex-column {
+  flex-direction: column;
 }
 .jcsb {
   justify-content: space-between;
@@ -257,14 +280,26 @@ img {
 .aic {
   align-items: center;
 }
+.ais {
+  align-items: start;
+}
+.text-align-center {
+  text-align: center;
+}
 .mr-24 {
   margin-right: 24px;
 }
 .mb-24 {
   margin-bottom: 24px;
 }
+.mb-28 {
+  margin-bottom: 28px;
+}
 .mb-32 {
   margin-bottom: 32px;
+}
+.flex-dc {
+  flex-direction: column;
 }
 .mb-36 {
   margin-bottom: 36px;
